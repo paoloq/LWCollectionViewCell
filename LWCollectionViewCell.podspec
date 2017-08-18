@@ -28,7 +28,7 @@ with ceil and floor, or using the .integral attribute of CGRect.
 Have fun!
                        DESC
 
-  s.homepage         = 'https://github.com/paoloq'
+  s.homepage         = 'https://github.com/paoloq/LWCollectionViewCell'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Paolo Arduin' => 'arduin.paolo@gmail.com' }
