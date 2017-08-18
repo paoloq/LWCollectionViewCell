@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  LWCollectionViewCell
 //
-//  Created by arduin.paolo@gmail.com on 08/18/2017.
-//  Copyright (c) 2017 arduin.paolo@gmail.com. All rights reserved.
+//  Created by Paolo Arduin on 08/18/2017.
+//  Copyright (c) 2017 Paolo Arduin. All rights reserved.
 //
 
 import UIKit
@@ -16,6 +16,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        self.window = UIWindow.init(frame: UIScreen.main.bounds)
+        self.window?.rootViewController = ViewController()
+        self.window?.makeKeyAndVisible()
+        
         return true
     }
 

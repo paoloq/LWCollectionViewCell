@@ -1,0 +1,6 @@
+framework module LWCollectionViewCell {
+  umbrella header "LWCollectionViewCell-umbrella.h"
+
+  export *
+  module * { export * }
+}

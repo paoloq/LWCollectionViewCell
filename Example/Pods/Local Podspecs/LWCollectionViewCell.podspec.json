@@ -1,0 +1,22 @@
+{
+  "name": "LWCollectionViewCell",
+  "version": "0.1.0",
+  "summary": "A short description of LWCollectionViewCell.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/arduin.paolo@gmail.com/LWCollectionViewCell",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "arduin.paolo@gmail.com": "arduin.paolo@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/arduin.paolo@gmail.com/LWCollectionViewCell.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LWCollectionViewCell/Classes/**/*"
+}
