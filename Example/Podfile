@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LWCollectionViewCell_Example' do
+  pod 'LWCollectionViewCell', :path => '../'
+
+  target 'LWCollectionViewCell_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
